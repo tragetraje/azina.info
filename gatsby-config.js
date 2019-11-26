@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Zina Astafyeva, Software Developer`,
-    email: `hi@azina.info`
+    email: `me@azina.info`
   },
   plugins: [
     `gatsby-plugin-emotion`,

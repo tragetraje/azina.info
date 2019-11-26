@@ -22,10 +22,14 @@ import { rhythm } from "../utils/typography"
         margin: 0 auto;
         max-width: 700px;
         padding: ${rhythm(2)};
-        padding-top: ${rhythm(1.5)};
+        padding-top: ${rhythm(1)};
         `}>
       <Header siteTitle={ data.site.siteMetadata.title } />
-      {children}
+        <div css={css`
+          padding-top: ${rhythm(4)};
+        `}>
+          {children}
+        </div>
     </div>
   </Fragment>
   )}
